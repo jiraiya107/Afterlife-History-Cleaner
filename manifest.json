@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Jiraiya Afterlife Auto-Cleaner",
+  "description": "A smart browser afterlife — clears your tracks when you're gone. A creation by jiraiya107..",
+  "version": "1.0",
+  "permissions": ["history", "storage", "idle", "alarms"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Afterlife Cleaner"
+  },
+  "icons": {
+    "128": "icon.png"
+  }
+}
